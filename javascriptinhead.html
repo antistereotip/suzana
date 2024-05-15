@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+body {text-align: center; background: gray;}
+.para {color: #a7f118;}
+h2 {color: orangered;}
+</style>
 <script>
 function myFunction() {
-  document.getElementById("paragraf").innerHTML = "Paragraf promenjen.";
+  document.getElementById("paragraf").innerHTML = "Paragraf promenjen. Ovako se menja vrednost paragrafa na dugme.";
 }
 </script>
 </head>
@@ -11,7 +16,7 @@ function myFunction() {
 
 <h2>Primer JavaScript-a u Head</h2>
 <button type="button" onclick="myFunction()">Promeni</button>
-<p id="paragraf">A Paragraph.</p>
+<p id="paragraf" class="para">Paragraf.</p>
 
 
 
